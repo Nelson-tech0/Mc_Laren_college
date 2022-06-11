@@ -1,4 +1,4 @@
-/*
+
 function greetings(yourname) {
     let result = 'hello '  + yourname;
     console.log(result);
