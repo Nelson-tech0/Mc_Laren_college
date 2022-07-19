@@ -113,17 +113,6 @@ else if(age < 18){
         board = [['X', 'O', ' '],['O', 'X', 'O'], ['X', 'O', 'X']];
         console.log(hasXWon(board)); // true
 
-function sumBetween(a, b) {
-    let sum = 0;
-    while (a <= b){
-        sum = sum + a;
-        a++;
-    }
-    return sum;
-}
-console.log(sumBetween(5, 8));//
-console.log(sumBetween(6, 12));//63
-console.log(sumBetween(6, 6));//6
 
 
 function sumBetween(a, b) {
@@ -134,7 +123,7 @@ function sumBetween(a, b) {
     }
     return sum;
 }
-console.log(sumBetween(10, 8));//
+
 
 let arr = [[[1,[10,11]],[5,6]],[2,3],[5,6]];
 arr[0][0][1][1] = 12;
@@ -160,17 +149,31 @@ function falseToTrue(booleans){
     let val = [false,false,false,true,false,false,true];
     console.log(falseToTrue(val));// should return [true,true,true,true,false,false,true]
     let val2 = [false,false,false];
-    console.log(falseToTrue(val2));// should return [true,true,true]*/
+    console.log(falseToTrue(val2));// should return [true,true,true]*
 
 
 let arr = [1, 2, 4, 5, 6, 8, 9, 8, 7, 8, 4];
 let i = 0;
-while(i < arr.length){
-    if(arr[i] % 2 == 1){
-        i = arr[i] * 2;
+while (arr[i] < arr.length){
+    if(arr[i] % 2 != 0){
+        i *=2;
     }
     i++;
 }
 
-console.log(arr);// should print [2, 2, 4, 10, 6, 8, 18, 8, 14, 8, 4]
+console.log(arr);// should print [2, 2, 4, 10, 6, 8, 18, 8, 14, 8, 4]*/
+
+function sumBetween(a, b) {
+    let sum = 0;
+    while (a <= b){
+        sum = sum + a;
+        a++;
+    }
+    return sum;
+}
+console.log(sumBetween(5, 8));//
+console.log(sumBetween(6, 12));//63
+console.log(sumBetween(6, 6));//6
+console.log(sumBetween(10, 8));//
+
 
