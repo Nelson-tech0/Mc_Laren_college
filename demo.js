@@ -1,5 +1,5 @@
 //Given the following nested array write code that prints all the non-negative numbers in each sub-array that occur before a negative number.
-/*let count = 0;
+let count = 0;
 function printUntilNegative(arr){
     for (let i = 0; i < arr.length; i++){
         for(let j = 0; j < arr.length; j++){

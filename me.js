@@ -1,8 +1,8 @@
 //Given an array write a function to print every third element of the array .
 /*let total = 1;
 function printEveryThirdElement(arr){
-    for(let i = 0; i < arr.length; i ++){
-        for (let j = 0; j < arr[i].length; j ++){
+    for(let i = 0; i < arr.length; i++){
+        for (let j = 0; j < arr[i].length; j++){
             total = arr[i][j];
         }
     }
